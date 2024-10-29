@@ -1,0 +1,18 @@
+{
+  "name": "parser-nazar-auto-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "create:csv": "ts-node ./src/createCsv.ts",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "@types/node": "^22.6.1",
+    "csv-writer": "^1.6.0",
+    "nodemon": "^3.1.7",
+    "puppeteer": "^23.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
